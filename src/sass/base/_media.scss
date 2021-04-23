@@ -1,0 +1,39 @@
+@media (max-width: 991px) {
+    .advantages {
+        &_wrapper {
+            margin-top: 45px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &_item {
+        margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            &__phone {
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__icons {
+            width: auto;
+            flex-wrap: wrap;
+        }
+    }
+    .header {
+        flex-direction: column;
+        height: 170px;
+    }
+    .button_main {
+        width: 270px;
+    }
+}
